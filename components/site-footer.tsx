@@ -1,4 +1,4 @@
-import { Phone, Send, Instagram } from 'lucide-react'
+import { Phone, Send, Camera } from 'lucide-react'
 import { CONTACTS } from '@/lib/site'
 
 export function SiteFooter() {
@@ -50,7 +50,7 @@ export function SiteFooter() {
             rel="noopener noreferrer"
             className="flex items-center gap-3 text-sm text-muted-foreground transition hover:text-foreground"
           >
-            <Instagram className="size-4 text-primary" />
+            <Camera className="size-4 text-primary" />
             {CONTACTS.instagramLabel}
           </a>
         </div>
