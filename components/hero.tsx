@@ -36,7 +36,7 @@ export function Hero() {
           </div>
 
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-balance sm:text-6xl lg:text-7xl">
-            Праздник <span className="text-gradient">без кринжа</span> и старомодных конкурсов
+            Праздник, <span className="text-gradient">который запоминают</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
