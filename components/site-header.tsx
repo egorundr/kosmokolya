@@ -24,8 +24,13 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5">
-        <a href="#top" className="font-display text-sm font-semibold tracking-tight text-foreground sm:text-base">
-          Николай <span className="text-primary">Семченков</span>
+        <a href="#top" className="flex flex-col leading-none">
+          <span className="font-display text-sm font-semibold tracking-tight text-foreground sm:text-base">
+            Николай <span className="text-primary">Семченков</span>
+          </span>
+          <span className="mt-0.5 text-[11px] tracking-wide text-muted-foreground sm:text-xs">
+            {CONTACTS.handle}
+          </span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

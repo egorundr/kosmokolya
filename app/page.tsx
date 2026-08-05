@@ -5,7 +5,9 @@ import { Gallery } from '@/components/gallery'
 import { About } from '@/components/about'
 import { Advantages } from '@/components/advantages'
 import { Timeline } from '@/components/timeline'
+import { Packages } from '@/components/packages'
 import { Reviews } from '@/components/reviews'
+import { Faq } from '@/components/faq'
 import { FinalCta } from '@/components/final-cta'
 import { SiteFooter } from '@/components/site-footer'
 
@@ -20,7 +22,9 @@ export default function Page() {
         <About />
         <Advantages />
         <Timeline />
+        <Packages />
         <Reviews />
+        <Faq />
         <FinalCta />
       </main>
       <SiteFooter />

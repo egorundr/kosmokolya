@@ -8,6 +8,9 @@ export function SiteFooter() {
         <div className="max-w-sm">
           <div className="font-display text-lg font-semibold tracking-tight">
             Николай <span className="text-primary">Семченков</span>
+            <span className="ml-2 align-middle text-sm font-normal text-muted-foreground">
+              {CONTACTS.handle}
+            </span>
           </div>
           <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
             Современный ведущий на свадьбу, юбилей и корпоратив. Праздник без кринжа — с лёгкой
