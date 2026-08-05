@@ -65,30 +65,26 @@ export function Hero() {
           </div>
         </div>
 
-        {/* right — visitka video */}
+        {/* right — host photo */}
         <div className="relative">
           <div className="pointer-events-none absolute -inset-6 -z-10 rounded-[2rem] bg-primary/25 blur-3xl" />
           <button
             type="button"
             onClick={() => setModalOpen(true)}
-            aria-label="Открыть видео-визитку со звуком"
+            aria-label="Смотреть видео-визитку"
             className="group relative block w-full overflow-hidden rounded-[1.6rem] border border-border shadow-2xl"
           >
-            <video
-              className="aspect-[4/5] w-full object-cover sm:aspect-[3/4]"
-              src="/media/vizitka.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
+            <img
+              className="aspect-[4/5] w-full object-cover object-top sm:aspect-[3/4]"
+              src="/hero.jpg"
+              alt="Ведущий Николай Семченков"
             />
             <span className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
             <span className="absolute bottom-4 left-4 flex items-center gap-3 rounded-full glass px-4 py-2 text-sm text-foreground">
               <span className="flex size-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition group-hover:scale-110">
                 <Play className="size-4 fill-current" />
               </span>
-              Включить со звуком
+              Смотреть визитку
             </span>
           </button>
         </div>
