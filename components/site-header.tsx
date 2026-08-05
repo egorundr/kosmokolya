@@ -52,7 +52,7 @@ export function SiteHeader() {
             rel="noopener noreferrer"
             className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition hover:brightness-110 sm:inline-flex"
           >
-            Записаться
+            Напишите мне
           </a>
           <button
             type="button"
@@ -83,7 +83,7 @@ export function SiteHeader() {
             rel="noopener noreferrer"
             className="mt-1 rounded-xl bg-primary px-4 py-3 text-center text-sm font-semibold text-primary-foreground"
           >
-            Записаться
+            Напишите мне
           </a>
         </nav>
       )}

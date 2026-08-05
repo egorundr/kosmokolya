@@ -23,7 +23,7 @@ export function FinalCta() {
             rel="noopener noreferrer"
             className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-9 py-4 text-base font-semibold text-primary-foreground transition hover:brightness-110"
           >
-            Записаться
+            Напишите мне
             <ArrowUpRight className="size-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>

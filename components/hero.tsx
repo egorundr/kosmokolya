@@ -51,7 +51,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-4 text-sm font-semibold text-primary-foreground transition hover:brightness-110"
             >
-              Записаться
+              Напишите мне
               <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
             <button
