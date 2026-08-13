@@ -110,7 +110,7 @@ export function Hero() {
             ref={modalVideoRef}
             onClick={(e) => e.stopPropagation()}
             className="max-h-[88vh] w-auto max-w-[92vw] rounded-2xl shadow-2xl"
-            src="/media/vizitka.mp4"
+            src="https://github.com/egorundr/kosmokolya/releases/download/v1.0/vizitka.mp4"
             controls
             autoPlay
             playsInline
