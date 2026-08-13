@@ -48,7 +48,7 @@ export function VideoSection() {
             <video
               ref={videoRef}
               className="aspect-[9/16] w-full object-cover"
-              src="/media/rancho.mp4"
+              src= "https://github.com/egorundr/kosmokolya/releases/download/v1.0/rancho.mp4"
               autoPlay
               muted
               loop
